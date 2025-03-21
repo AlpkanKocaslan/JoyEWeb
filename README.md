@@ -1,1 +1,0 @@
-# AlpkanKocaslan.github.io
