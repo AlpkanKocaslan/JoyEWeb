@@ -1141,47 +1141,138 @@ strong {
   }
 }
 
+
 @media screen and (max-width: 480px) {
   h1 {
-    font-size: 40px;
+    font-size: 24px;
   }
 
   h2 {
-    font-size: 28px;
+    font-size: 20px;
   }
 
   h3 {
-    font-size: 26px;
+    font-size: 18px;
   }
 
   h4 {
-    font-size: 22px;
+    font-size: 16px;
   }
 
   h5 {
-    font-size: 20px;
+    font-size: 14px;
+  }
+
+  h6 {
+    font-size: 12px;
+  }
+
+  .section-padding {
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .custom-btn,
   .navbar .custom-btn {
-    font-size: 13px;
-    padding: 6px 12px;
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+
+  .navbar .container {
+    padding: 0 8px;
+  }
+
+  .navbar-brand,
+  .navbar-brand:hover {
+    font-size: 14px;
+    color: var(--dark-color);
   }
 
   .navbar-icon {
-    font-size: var(--copyright-font-size);
-    width: 35.5px;
-    height: 35.5px;
-    line-height: 35.5px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
   }
 
+  .navbar-toggler .navbar-toggler-icon,
+  .navbar-toggler .navbar-toggler-icon:before,
+  .navbar-toggler .navbar-toggler-icon:after {
+    background: var(--dark-color);
+  }
+
+  .hero {
+    padding-top: 120px;
+    padding-bottom: 180px;
+  }
+
+  .hero-text {
+    margin-bottom: 60px;
+    font-size: 16px;
+  }
+
+  .about-thumb {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .about-numbers {
+    font-size: 28px;
+  }
+
+  .services-thumb-up {
+    margin-bottom: 15px;
+  }
+
+  .services-thumb {
+    margin-bottom: 15px;
+  }
+
+  .services-icon-wrap {
+    width: 40%;
+    height: 45%;
+  }
+
+  .projects-thumb {
+    margin-bottom: 15px;
+  }
+
+  .contact-info {
+    padding: 20px 15px;
+  }
+
+  .contact-info-border-start {
+    border-right: 0;
+    border-bottom: 1px solid var(--border-color);
+    padding: 15px;
+  }
+
+  /* Adjust hero image size for small screens */
   .hero-image-wrap {
-    width: 300px;
-    height: 300px;
+    width: 220px;
+    height: 220px;
   }
 
   .hero-image {
     min-width: inherit;
   }
-}
 
+  /* Hide the image for small screens */
+  .hero .avatar-image {
+    display: none;
+  }
+
+  .clients .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .clients-item-height {
+    margin-bottom: 15px;
+  }
+
+  .clients-image {
+    max-width: 90%;
+    height: auto;
+  }
+}
